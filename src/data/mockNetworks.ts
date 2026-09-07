@@ -1,0 +1,102 @@
+import { AccessPoint } from '../types';
+
+export const INITIAL_ACCESS_POINTS: AccessPoint[] = [
+  {
+    bssid: 'F4:92:BF:88:31:5A',
+    ssid: 'Home_WiFi_Mesh',
+    band: '5 GHz',
+    channel: 36,
+    channelWidth: '80 MHz',
+    rssi: -52,
+    noise: -92,
+    snr: 40,
+    security: 'WPA2/WPA3 Mixed',
+    isCurrent: true,
+    isTarget5G: true,
+    phyMode: '802.11ax (Wi-Fi 6)'
+  },
+  {
+    bssid: 'F4:92:BF:88:31:59',
+    ssid: 'Home_WiFi_Mesh',
+    band: '2.4 GHz',
+    channel: 6,
+    channelWidth: '20 MHz',
+    rssi: -45,
+    noise: -89,
+    snr: 44,
+    security: 'WPA2/WPA3 Mixed',
+    isCurrent: false,
+    isTarget5G: false,
+    phyMode: '802.11ax (Wi-Fi 6)'
+  },
+  {
+    bssid: '78:45:58:12:8A:42',
+    ssid: 'Office_SpeedNet',
+    band: '5 GHz',
+    channel: 149,
+    channelWidth: '160 MHz',
+    rssi: -61,
+    noise: -94,
+    snr: 33,
+    security: 'WPA3 Personal',
+    isCurrent: false,
+    isTarget5G: true,
+    phyMode: '802.11be (Wi-Fi 7)'
+  },
+  {
+    bssid: '78:45:58:12:8A:41',
+    ssid: 'Office_SpeedNet',
+    band: '2.4 GHz',
+    channel: 11,
+    channelWidth: '40 MHz',
+    rssi: -58,
+    noise: -90,
+    snr: 32,
+    security: 'WPA3 Personal',
+    isCurrent: false,
+    isTarget5G: false,
+    phyMode: '802.11ax (Wi-Fi 6)'
+  },
+  {
+    bssid: 'A0:04:60:DE:51:77',
+    ssid: 'Coffee_5G_VIP',
+    band: '5 GHz',
+    channel: 48,
+    channelWidth: '80 MHz',
+    rssi: -68,
+    noise: -91,
+    snr: 23,
+    security: 'WPA2 Personal',
+    isCurrent: false,
+    isTarget5G: true,
+    phyMode: '802.11ac (Wi-Fi 5)'
+  },
+  {
+    bssid: 'A0:04:60:DE:51:76',
+    ssid: 'Coffee_5G_VIP',
+    band: '2.4 GHz',
+    channel: 1,
+    channelWidth: '20 MHz',
+    rssi: -56,
+    noise: -88,
+    snr: 32,
+    security: 'WPA2 Personal',
+    isCurrent: false,
+    isTarget5G: false,
+    phyMode: '802.11n (Wi-Fi 4)'
+  },
+  {
+    bssid: '2C:30:33:91:AA:02',
+    ssid: 'Neighbor_Network',
+    band: '2.4 GHz',
+    channel: 6,
+    channelWidth: '20 MHz',
+    rssi: -79,
+    noise: -90,
+    snr: 11,
+    security: 'WPA2 Personal',
+    isCurrent: false,
+    isTarget5G: false,
+    phyMode: '802.11n (Wi-Fi 4)'
+  }
+];

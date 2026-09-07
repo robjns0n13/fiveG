@@ -1,0 +1,8 @@
+{
+  "name": "FiveGLock",
+  "description": "macOS Wi-Fi 5 GHz band lock and network monitor that keeps your connection locked to high-speed 5 GHz access points.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
